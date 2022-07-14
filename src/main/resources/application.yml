@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:postgresql://localhost:5434/directory
+    username: postgres
+    password: postgres
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
